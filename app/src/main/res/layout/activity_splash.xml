@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/md_black_1000"
+    android:layout_height="match_parent">
+    
+    <RelativeLayout
+        android:id="@+id/getStartedRL"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/splashViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/splash_second">
+
+        </android.support.v4.view.ViewPager>
+
+        <TextView
+            android:id="@+id/splashTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/splash_text"
+            android:layout_marginTop="@dimen/margin100"
+            android:textColor="@color/md_white_1000"
+            android:layout_alignParentTop="true"
+            android:padding="@dimen/fab_margin"
+            android:textSize="@dimen/text_30"
+            android:fontFamily="@font/dancing_script"
+            android:textStyle="bold"
+            tools:targetApi="jelly_bean" />
+
+
+        <Button
+            android:id="@+id/getStartedBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Get started"
+            android:layout_alignParentBottom="true"
+            android:textAllCaps="true"
+            android:fontFamily="@font/gotham_rounded_bold"
+            android:background="@drawable/button_effect"
+            android:textColor="@color/md_black_1000"
+            android:layout_margin="@dimen/fab_margin"
+            android:textStyle="bold"
+            tools:targetApi="jelly_bean" />
+        
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/initialScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/md_black_1000">
+
+        <TextView
+            android:id="@+id/appTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Mad About Music"
+            android:textStyle="bold"
+            android:textColor="@color/md_white_1000"
+            android:textSize="@dimen/text_30"
+            android:fontFamily="@font/gotham_rounded_bold"
+            tools:targetApi="jelly_bean" />
+
+
+        <ImageView
+            android:layout_width="@dimen/margin40"
+            android:layout_height="@dimen/margin40"
+            android:layout_toEndOf="@+id/appTitle"
+            android:contentDescription="@string/app_name"
+            android:layout_toRightOf="@+id/appTitle"
+            android:src="@drawable/ic_favorite_white_24dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

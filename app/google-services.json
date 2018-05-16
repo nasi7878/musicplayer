@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "984136703256",
+    "firebase_url": "https://madaboutmusic-fabdf.firebaseio.com",
+    "project_id": "madaboutmusic-fabdf",
+    "storage_bucket": "madaboutmusic-fabdf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984136703256:android:d65af2bdd40af0d3",
+        "android_client_info": {
+          "package_name": "android.com.madaboutmusic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "984136703256-u88mvgr7b0bjbsr0lrdrakcg2b4jeb5p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.com.madaboutmusic",
+            "certificate_hash": "65618726f2d46cd7b0cb0a7a97853acc2f6cc581"
+          }
+        },
+        {
+          "client_id": "984136703256-d5r3gj1fr9tfpn3jt8ks4gqmvah3g3sb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIJMu2pGGA9XWCc-1weXnjjCp09umaRVo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "984136703256-d5r3gj1fr9tfpn3jt8ks4gqmvah3g3sb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
